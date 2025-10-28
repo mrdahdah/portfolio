@@ -1,0 +1,135 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section {
+  padding: 40px 60px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* ===== Navbar ===== */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 15px 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* ===== Home Section ===== */
+.home-section {
+  text-align: center;
+  background-color: #e3f2fd;
+  padding: 60px 20px;
+}
+
+.home-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-section p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* ===== About Section ===== */
+.about-section ul {
+  list-style: square;
+  padding-left: 40px;
+}
+
+/* ===== Table Styling ===== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #00bcd4;
+  color: white;
+}
+
+/* ===== Contact Form ===== */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+footer a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

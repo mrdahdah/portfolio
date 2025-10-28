@@ -4,13 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Creative Portfolio</title>
+
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Font: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- ===== NAVBAR ===== -->
-  <header>
+  <header class="navbar">
     <nav>
-      <ul style="list-style: none; display: flex; gap: 20px;">
+      <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#work">Work</a></li>
@@ -21,21 +27,25 @@
   </header>
 
   <!-- ===== HOME SECTION ===== -->
-  <section id="home">
+  <section id="home" class="home-section">
     <h1>Welcome to My Portfolio</h1>
     <p>Hi, I’m <strong>Mohamed Reda</strong> — a passionate learner in software engineering and web development.</p>
 
     <h3>Motivational Video for Developers</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dWQydgGBOEE?si=rLfbOe-RshE4p1z3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/dWQydgGBOEE?si=rLfbOe-RshE4p1z3"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
   </section>
 
-
   <!-- ===== ABOUT SECTION ===== -->
-    <section id="about">
+  <section id="about" class="about-section">
     <h2>About Me</h2>
     <article>
       <p>
-        I’m an aspiring web developer who enjoys building modern, creative, and efficient applications. 
+        I’m an aspiring web developer who enjoys building modern, creative, and efficient applications.
         I love combining logic and design to deliver unique digital experiences.
       </p>
 
@@ -55,11 +65,11 @@
   </section>
 
   <!-- ===== WORK SECTION ===== -->
-  <section id="work">
+  <section id="work" class="work-section">
     <h2>My Work</h2>
     <p>Here’s a quick overview of some of the projects I’ve worked on:</p>
 
-    <table border="1" cellpadding="10">
+    <table>
       <thead>
         <tr>
           <th>Project</th>
@@ -88,7 +98,7 @@
   </section>
 
   <!-- ===== RESUME SECTION ===== -->
-  <section id="resume">
+  <section id="resume" class="resume-section">
     <h2>Resume</h2>
     <p>You can view my complete resume <a href="resume.pdf" target="_blank">here</a>.</p>
 
@@ -106,24 +116,24 @@
   </section>
 
   <!-- ===== CONTACT SECTION ===== -->
-  <section id="contact">
+  <section id="contact" class="contact-section">
     <h2>Contact Me</h2>
     <form action="#" method="post">
-      <label for="name">Full Name:</label><br />
-      <input type="text" id="name" name="name" placeholder="Enter your name" required /><br /><br />
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br /><br />
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea><br /><br />
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea><br><br>
 
       <button type="submit">Send</button>
     </form>
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer>
+  <footer class="footer">
     <p>&copy; 2025 Mohamed Reda | Built with ❤️ and HTML5</p>
     <a href="#home">Back to top</a>
   </footer>
