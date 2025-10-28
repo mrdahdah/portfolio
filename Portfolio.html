@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Creative Portfolio</title>
+</head>
+
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav>
+      <ul style="list-style: none; display: flex; gap: 20px;">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HOME SECTION ===== -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I’m <strong>Mohamed Reda</strong> — a passionate learner in software engineering and web development.</p>
+    <video width="480" controls>
+      <source src="intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <article>
+      <p>
+        I’m an aspiring web developer who enjoys building modern, creative, and efficient applications. 
+        I love combining logic and design to deliver unique digital experiences.
+      </p>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Python, Node.js</li>
+        <li>Automation & AI Tools</li>
+      </ul>
+
+      <audio controls>
+        <source src="voice-intro.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </article>
+  </section>
+
+  <!-- ===== WORK SECTION ===== -->
+  <section id="work">
+    <h2>My Work</h2>
+    <p>Here’s a quick overview of some of the projects I’ve worked on:</p>
+
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Type</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Portfolio Website</td>
+          <td>Frontend</td>
+          <td>2025</td>
+        </tr>
+        <tr>
+          <td>AI Workflow Builder</td>
+          <td>Automation</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td>Finance Dashboard</td>
+          <td>Full Stack</td>
+          <td>2023</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===== RESUME SECTION ===== -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>You can view my complete resume <a href="resume.pdf" target="_blank">here</a>.</p>
+
+    <h3>Education</h3>
+    <ul>
+      <li>MSc in Software Engineering — GoMyCode</li>
+      <li>Master’s in Finance & Audit — HEC</li>
+    </ul>
+
+    <h3>Experience</h3>
+    <ul>
+      <li>AI Automation Intern — Agentarity (2025)</li>
+      <li>M&A Analyst — Astenia Capital (2023–2024)</li>
+    </ul>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" placeholder="Enter your name" required /><br /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br /><br />
+
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea><br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Mohamed Reda Dahdah | Built with ❤️ and HTML5</p>
+    <a href="#home">Back to top</a>
+  </footer>
+</body>
+</html>
